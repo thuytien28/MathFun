@@ -10,7 +10,8 @@ import { HomeComponent } from './home.component';
 
 // chương 1
 import { dem10} from './luyentap/chuong1-phamvi10/dem10';
-import { phepToan10 } from './luyentap/chuong1-phamvi10/phep-toan-10';
+import { sub10} from './luyentap/chuong1-phamvi10/sub-10';
+import { sum10 } from './luyentap/chuong1-phamvi10/sum-10';
 import { MinMaxQuestionDetailComponent } from './luyentap/chuong1-phamvi10/min-max-10';
 
 //chương 2
@@ -47,7 +48,8 @@ import { De3Component } from './kiemtra/de3.component';
     AppComponent,
     HomeComponent,
     dem10,
-    phepToan10,
+    sub10,
+    sum10,
     MinMaxQuestionDetailComponent,
     SoSanh20Component,
     Sub20Question,

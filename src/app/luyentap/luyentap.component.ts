@@ -12,7 +12,9 @@ import { Component } from '@angular/core';
                         <h2> Các số và phép toán trong phạm vi 10</h2>
                         <a routerLink="/demden5" routerLinkActive="active">Đếm đến 10</a>
                         <br>
-                        <a routerLink="/cacsovapheptinhtrongphamvi10" routerLinkActive="active">Các số và phép toán trong phạm vi 10</a>
+                        <a routerLink="/sub10" routerLinkActive="active">Phép trừ 10</a>
+                        <br>
+                        <a routerLink="/sum10" routerLinkActive="active">Phép cộng 10</a>
                         <br>
                         <a routerLink="/timminmaxphamvi10" routerLinkActive="active">Tìm số lớn nhất bé nhất trong phạm vi 10</a>
                     </div>

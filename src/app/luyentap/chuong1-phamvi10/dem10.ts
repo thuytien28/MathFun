@@ -20,7 +20,7 @@ import { CountQuestion } from "./count-question";
                         <!-- hiển thị câu hỏi -->
                         <h3><strong>{{QUESTIONES[x].name_ques}}</strong></h3>
                         <div id="getImgQues"><img src={{QUESTIONES[x].link_img}} /></div>
-                        <div id="ans">
+                        <div id="ans" >
                             <input type="text" style="text-align: center" #result id="ketqua">
                         </div>
                         <div id="submit_ans">
@@ -40,7 +40,7 @@ import { CountQuestion } from "./count-question";
                                 <h2><strong>Chúc mừng bạn đã hoàn thành bài học 1!</strong></h2>
                                 <h2><strong>Chuyển đến bài học mới nào</strong></h2>
                             </div>
-                            <h2><a routerLink="/cacsovapheptinhtrongphamvi10" routerLinkActive="active">Bài 2 - chương 1: Các phép toán trong phạm vi 10. </a></h2>
+                            <h2><a routerLink="/sub10" routerLinkActive="active">Bài 2 - chương 1: Các phép toán trong phạm vi 10. </a></h2>
                             <router-outlet></router-outlet>
                         </div>
                     </div>
@@ -104,7 +104,7 @@ export class dem10 {
         
     }, {
         name_ques: "Có bao nhiêu con ngựa trong hình?",
-        link_img: "./assets/image/8ngua.jpg",
+        link_img: "./assets/image/8ngua.PNG",
         true_ans: 8
         
     }];

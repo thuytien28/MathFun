@@ -5,7 +5,8 @@ import { AppComponent } from  'app/app.component';
 import { HomeComponent } from 'app/home.component';
 
 import { dem10 } from 'app/luyentap/chuong1-phamvi10/dem10';
-import { phepToan10 } from 'app/luyentap/chuong1-phamvi10/phep-toan-10';
+import { sub10 } from 'app/luyentap/chuong1-phamvi10/sub-10';
+import { sum10 } from 'app/luyentap/chuong1-phamvi10/sum-10';
 import { luyentapComponent } from 'app/luyentap/luyentap.component';
 import { MinMaxQuestionDetailComponent } from 'app/luyentap/chuong1-phamvi10/min-max-10';
 
@@ -40,7 +41,8 @@ const routes: Routes = [
 
   { path: 'luyentap', component: luyentapComponent },
   { path: 'demden5', component: dem10 },
-  { path: 'cacsovapheptinhtrongphamvi10', component: phepToan10 },
+  { path: 'sub10', component: sub10 },
+  { path: 'sum10', component: sum10},
   { path: 'timminmaxphamvi10', component: MinMaxQuestionDetailComponent },
 
   { path: 'sosanh20', component: SoSanh20Component },

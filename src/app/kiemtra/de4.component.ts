@@ -2,62 +2,62 @@ import { Component } from '@angular/core';
 import { test } from './test';
 
 @Component({
-    selector: 'de1',
+    selector: 'de4',
     templateUrl: 'de.component.html',
     styleUrls: ['de.component.css'],
 
 })
 
-export class De1Component {
+export class De4Component {
     tests: test[] = [
         {
-            name_que: "Thực hiện phép tính",
-            name_link: "",
-            conten_ques: "7 + 3 = ??? ",
-            input_ans: "",
-            true_ans: 10
-        },
-        {
-            name_que: "Có bao nhiêu đồng hồ chỉ hơn 4h ?",
-            name_link: "./assets/image/hon4h.png",
+            name_que: "Hình dưới có mấy quả táo",
+            name_link: "./assets/image/3tao.jpg",
             conten_ques: "",
             input_ans: "",
             true_ans: 3
         },
         {
-            name_que: "Đếm số hình tam giác hiện trên hình vẽ.(Chỉ đếm những hình được nối bởi 3 điểm)",
-            name_link: "./assets/image/tamgiac2.jpg",
-            conten_ques: "",
-            input_ans: "",
-            true_ans: 5
-        },
-        {
-            name_que: "Số liền trước của 63 là: ",
+            name_que: "Thực hiện phép tính",
             name_link: "",
-            conten_ques: "",
+            conten_ques: "26 + 46 = ??? ",
             input_ans: "",
-            true_ans: 62
+            true_ans: 72
         },
         {
-            name_que: "Số lớn nhất trong các số sau ?",
+            name_que: "Đếm số hình tam giác hiện trên hình vẽ.(Chỉ đếm những hình được nối bởi 3 điểm)",
+            name_link: "./assets/image/tamgiac1.jpg",
+            conten_ques: "",
+            input_ans: "",
+            true_ans: 4
+        },
+        {
+            name_que: "Thực hiện phép tính",
+            name_link: "",
+            conten_ques: "86 - 40 = ??? ",
+            input_ans: "",
+            true_ans: 46
+        },
+        {
+            name_que: "Số nhỏ nhất trong các số sau ?",
             name_link: "",
             conten_ques: "56, 45, 34, 78, 49, 23",
             input_ans: "",
-            true_ans: 78
+            true_ans: 23
         },
         {
             name_que: "Thực hiện phép tính sau.",
             name_link: "",
-            conten_ques: "67 - 48 = ???",
+            conten_ques: "67 - 47 = ???",
             input_ans: "",
-            true_ans: 19
+            true_ans: 20
         },
         {
-            name_que: "Nếu hôm nay là Chủ Nhật thì ngày mai là thứ mấy? (Chỉ cần ghi số)",
+            name_que: "Sau ngày 23 là ngày bao nhiêu của tháng?",
             name_link: "",
             conten_ques: "",
             input_ans: "",
-            true_ans: 2
+            true_ans: 24
         },
         {
             name_que: "Đếm số cá xuất hiện trong hình.",
@@ -67,22 +67,21 @@ export class De1Component {
             true_ans: 3
         },
         {
-            name_que: "Số lẻ bé nhất có hai chữ số là: ",
+            name_que: "Tìm số lớn nhất trong dãy số sau",
             name_link: "",
-            conten_ques: "",
+            conten_ques: "40, 13, 80, 28, 30, 46",
             input_ans: "",
-            true_ans: 11
+            true_ans: 80
         },
          {
             name_que: "Thực hiện phép tính sau.",
             name_link: "",
-            conten_ques: "12 + 30 = ???",
+            conten_ques: "80 cm- 30 cm = ? cm",
             input_ans: "",
-            true_ans: 42
+            true_ans: 50
         }
 
     ];
-   
     showGuide = true;
     showChoice = false;
     showChoiceCheck = false;

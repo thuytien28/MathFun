@@ -9,8 +9,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home.component';
 
 // chương 1
-import { CountQuestionDetailComponent } from './luyentap/chuong1-phamvi10/count-question-detail.component';
-import { CalQuestionDetailComponent } from './luyentap/chuong1-phamvi10/cal-question-detail.component';
+import { dem10} from './luyentap/chuong1-phamvi10/dem10';
+import { phepToan10 } from './luyentap/chuong1-phamvi10/phep-toan-10';
 import { MinMaxQuestionDetailComponent } from './luyentap/chuong1-phamvi10/min-max-10';
 
 //chương 2
@@ -27,6 +27,13 @@ import { Sum100Question } from './luyentap/chuong3-phamvi100/cal-sum-100.compone
 import { MinMax100QuestionComponent } from './luyentap/chuong3-phamvi100/min-max-100.component';
 import { SoLienTruocSau100Component } from './luyentap/chuong3-phamvi100/lientruoc-sau-100.component';
 
+//  chương 4
+import { DiemDoanthang } from './luyentap/chuong4-hinhhoc/diem-doanthang.component';
+import { DemTamgiac } from './luyentap/chuong4-hinhhoc/dem-so-tamgiac.component';
+
+// chương 5
+import { XemGioComponent } from './luyentap/chuong5-thoigian/xem-gio.component';
+
 import { luyentapComponent } from "app/luyentap/luyentap.component";
 import { KiemTraComponent } from './kiemtra/kiemtra.component';
 import { giaitriComponent } from './giaitri/giaitri.component';
@@ -39,8 +46,8 @@ import { De3Component } from './kiemtra/de3.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    CountQuestionDetailComponent,
-    CalQuestionDetailComponent,
+    dem10,
+    phepToan10,
     MinMaxQuestionDetailComponent,
     SoSanh20Component,
     Sub20Question,
@@ -52,6 +59,9 @@ import { De3Component } from './kiemtra/de3.component';
     Sum100Question,
     MinMax100QuestionComponent,
     SoLienTruocSau100Component,
+    DiemDoanthang,
+    DemTamgiac,
+    XemGioComponent,
 
     luyentapComponent,
     KiemTraComponent,

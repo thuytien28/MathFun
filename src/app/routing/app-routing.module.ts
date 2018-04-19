@@ -4,8 +4,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from  'app/app.component';
 import { HomeComponent } from 'app/home.component';
 
-import { CountQuestionDetailComponent } from 'app/luyentap/chuong1-phamvi10/count-question-detail.component';
-import { CalQuestionDetailComponent } from 'app/luyentap/chuong1-phamvi10/cal-question-detail.component';
+import { dem10 } from 'app/luyentap/chuong1-phamvi10/dem10';
+import { phepToan10 } from 'app/luyentap/chuong1-phamvi10/phep-toan-10';
 import { luyentapComponent } from 'app/luyentap/luyentap.component';
 import { MinMaxQuestionDetailComponent } from 'app/luyentap/chuong1-phamvi10/min-max-10';
 
@@ -21,6 +21,11 @@ import { Sum100Question } from 'app/luyentap/chuong3-phamvi100/cal-sum-100.compo
 import { MinMax100QuestionComponent } from 'app/luyentap/chuong3-phamvi100/min-max-100.component';
 import { SoLienTruocSau100Component } from 'app/luyentap/chuong3-phamvi100/lientruoc-sau-100.component';
 
+import { DiemDoanthang } from 'app/luyentap/chuong4-hinhhoc/diem-doanthang.component';
+import { DemTamgiac } from 'app/luyentap/chuong4-hinhhoc/dem-so-tamgiac.component';
+
+import { XemGioComponent } from 'app/luyentap/chuong5-thoigian/xem-gio.component';
+
 // kiểm tra
 import { KiemTraComponent } from 'app/kiemtra/kiemtra.component';
 import { De1Component } from 'app/kiemtra/de1.component';
@@ -34,8 +39,8 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
 
   { path: 'luyentap', component: luyentapComponent },
-  { path: 'demden5', component: CountQuestionDetailComponent },
-  { path: 'cacsovapheptinhtrongphamvi10', component: CalQuestionDetailComponent },
+  { path: 'demden5', component: dem10 },
+  { path: 'cacsovapheptinhtrongphamvi10', component: phepToan10 },
   { path: 'timminmaxphamvi10', component: MinMaxQuestionDetailComponent },
 
   { path: 'sosanh20', component: SoSanh20Component },
@@ -50,6 +55,11 @@ const routes: Routes = [
   { path: 'minmax100', component: MinMax100QuestionComponent },
   { path: 'lientruocsau100', component: SoLienTruocSau100Component },
 
+  { path: 'diemdoanthang', component: DiemDoanthang },
+  { path: 'demtamgiac', component: DemTamgiac },
+
+  { path: 'xemgio', component: XemGioComponent },
+  
   { path: 'kiemtra', component: KiemTraComponent },
   { path: 'de1', component: De1Component },
   { path: 'de2', component: De2Component },

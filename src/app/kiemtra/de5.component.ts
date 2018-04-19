@@ -2,41 +2,34 @@ import { Component } from '@angular/core';
 import { test } from './test';
 
 @Component({
-    selector: 'de1',
+    selector: 'de5',
     templateUrl: 'de.component.html',
     styleUrls: ['de.component.css'],
 
 })
 
-export class De1Component {
+export class De5Component {
     tests: test[] = [
+        {
+            name_que: "Có bao nhiêu con thỏ trong hình bên dưới",
+            name_link: "./assets/image/tho8.jpg",
+            conten_ques: "",
+            input_ans: "",
+            true_ans: 8
+        },
         {
             name_que: "Thực hiện phép tính",
             name_link: "",
-            conten_ques: "7 + 3 = ??? ",
+            conten_ques: "20 + 20 = ??? ",
             input_ans: "",
-            true_ans: 10
+            true_ans: 40
         },
         {
-            name_que: "Có bao nhiêu đồng hồ chỉ hơn 4h ?",
-            name_link: "./assets/image/hon4h.png",
+            name_que: "Đếm số đoạn thẳng xuất hiện trên hình",
+            name_link: "./assets/image/doanthang.jpg",
             conten_ques: "",
             input_ans: "",
-            true_ans: 3
-        },
-        {
-            name_que: "Đếm số hình tam giác hiện trên hình vẽ.(Chỉ đếm những hình được nối bởi 3 điểm)",
-            name_link: "./assets/image/tamgiac2.jpg",
-            conten_ques: "",
-            input_ans: "",
-            true_ans: 5
-        },
-        {
-            name_que: "Số liền trước của 63 là: ",
-            name_link: "",
-            conten_ques: "",
-            input_ans: "",
-            true_ans: 62
+            true_ans: 7
         },
         {
             name_que: "Số lớn nhất trong các số sau ?",
@@ -46,43 +39,49 @@ export class De1Component {
             true_ans: 78
         },
         {
+            name_que: "Đếm số điểm nằm bên trong hình tròn",
+            name_link: "./assets/image/diem1.jpg",
+            conten_ques: "",
+            input_ans: "",
+            true_ans: 6
+        },
+        {
+            name_que: "Ngày 29/1/2005 là vào thứ mấy trong tuần? (Điền số vào ô dưới)",
+            name_link: "./assets/image/lich2.png",
+            conten_ques: "",
+            input_ans: "",
+            true_ans: 7
+        },
+        {
             name_que: "Thực hiện phép tính sau.",
             name_link: "",
-            conten_ques: "67 - 48 = ???",
+            conten_ques: "40 - 20 = ???",
             input_ans: "",
-            true_ans: 19
+            true_ans: 20
         },
         {
-            name_que: "Nếu hôm nay là Chủ Nhật thì ngày mai là thứ mấy? (Chỉ cần ghi số)",
+            name_que: "Số lớn nhất trong dãy số sau",
             name_link: "",
-            conten_ques: "",
+            conten_ques: "34, 56, 70, 29, 78",
             input_ans: "",
-            true_ans: 2
+            true_ans: 78
         },
         {
-            name_que: "Đếm số cá xuất hiện trong hình.",
-            name_link: "./assets/image/3ca.png",
-            conten_ques: "",
-            input_ans: "",
-            true_ans: 3
-        },
-        {
-            name_que: "Số lẻ bé nhất có hai chữ số là: ",
+            name_que: "Điền số thích hợp",
             name_link: "",
-            conten_ques: "",
+            conten_ques: "18 dm + 20 dm = ???",
             input_ans: "",
-            true_ans: 11
+            true_ans: 38
         },
          {
-            name_que: "Thực hiện phép tính sau.",
+            name_que: "Trang hái được 23 bông hoa. Phương hái được 18 bông hoa. Hỏi cả 2 bạn hái được tất cả bao nhiêu bông hoa",
             name_link: "",
-            conten_ques: "12 + 30 = ???",
+            conten_ques: "23 bông hoa + 18 bông hoa = ???",
             input_ans: "",
-            true_ans: 42
+            true_ans: 41
         }
 
     ];
-   
     showGuide = true;
     showChoice = false;
     showChoiceCheck = false;

@@ -1,20 +1,35 @@
 <section>
-    <h1>Bài 2: Chương 1: Các phép toán trong phạm vi 10.</h1>
-    <h2 class="type">Điền số thích hợp vào ô trống</h2>
+    <div *ngIf="nameQues">
+        <div *ngIf="b1_c4_head">
+            <h1>Bài 2 - Chương 4: Điểm vào đoạn thẳng</h1>
+            <h2 class="type">Điền số thích hợp vào ô trống.</h2>
+        </div>
+        <div *ngIf="b2_c4_head">
+            <h1>Bài 3 - Chương 4: Đếm số hình tam giác</h1>
+            <h2 class="type">Điền số thích hợp vào ô trống.</h2>
+            <p>Chú ý: Chỉ tính số tam giác được nối bởi 3 điểm</p>
+        </div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-sm-1"></div>
-            <div class="col-sm-6 col-xs-10">
+            <!-- cột hiển thị câu hỏi -->
+            <div class="col-sm-6">
+                <!-- câu hỏi hiện trong panel -->
                 <div class="panel panel-body panel-primary" id="divQues">
+
                     <div *ngIf="showAns">
-
-                        <h2 id="nameQues">{{CALQUESTIONS[x].question}}<input type="text" #result id="ketqua"> </h2>
-
-                        <!-- kiểm tra giá trị điền vào ô trống -->
+                        <!-- hiển thị câu hỏi -->
+                        <h3><strong>{{countques[x].name_ques}}</strong></h3>
+                        <div id="getImgQues"><img src={{countques[x].link_img}} /></div>
+                        <div id="ans">
+                            <input type="text" #result id="ketqua">
+                        </div>
                         <div id="submit_ans">
                             <button type="button" (click)="checkAns(result.value); result.value=''" id="kiemtra">Kiểm tra</button>
                         </div>
                     </div>
+
                     <!-- chuyển sang bài tiếp theo -->
                     <div *ngIf="nextLess">
                         <div id="newLess">
@@ -27,14 +42,21 @@
                                 <h2><strong>Chúc mừng bạn đã hoàn thành bài học!</strong></h2>
                                 <h2><strong>Chuyển đến bài học mới nào</strong></h2>
                             </div>
-                            <h2><a routerLink="/minmax10" routerLinkActive="active">Bài 3 - chương 1: Tìm số lớn nhất bé nhất trong phạm vi 10. </a></h2>
-                            <router-outlet></router-outlet>
+                            <div *ngIf="bai2_chuong4">
+                                <h2><a routerLink="/tamgiacvuongtron" routerLinkActive="active">Bài 2 - chương 4: Hình tam giác, hình vuông, hình tròn. </a></h2>
+                                <router-outlet></router-outlet>
+                            </div>
+                            <div *ngIf="bai1_chuong5">
+                                <h2><a routerLink="/xemgio" routerLinkActive="active">Bài 1 - chương 5: Xem giờ. </a></h2>
+                                <router-outlet></router-outlet>
+                            </div>
                         </div>
                     </div>
 
                 </div>
-
             </div>
+
+            <!-- cột hiển thị số sao -->
             <div class="col-sm-4">
                 <!-- số sao hiện trong panel -->
                 <h2 class="type1"><strong>Số sao đạt được </strong></h2>
@@ -44,7 +66,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </section>

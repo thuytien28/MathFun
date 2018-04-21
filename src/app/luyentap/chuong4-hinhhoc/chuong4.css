@@ -11,13 +11,19 @@ h3 {
     text-align: center;
 }
 
+p{
+    color: red;
+    padding-left: 5cm;
+}
+
 #getImgQues {
     text-align: center;
 }
 
 #divQues {
-    height: 400px;
+    height: 350px;
     border-width: 3px;
+   
 }
 
 .type {
@@ -57,8 +63,10 @@ h3 {
     
 }
 
+
 #ketqua{
     font-size: 20px;
     border: 3px double;
     height: 40px;
+    text-align: center;
 }

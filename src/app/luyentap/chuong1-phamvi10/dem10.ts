@@ -7,7 +7,7 @@ import { CountQuestion } from "./count-question";
     styleUrls: ['./dem10.css'],
     template: `
     <section>
-    <h1>Bài 1 - Chương 1: Các số trong phạm vi 10</h1>
+    <h1>Bài 1 - Chương 1: Đếm trong phạm vi 10</h1>
     <h2 class="type">Điền số thích hợp vào ô trống.</h2>
     <div class="container">
         <div class="row">
@@ -40,7 +40,7 @@ import { CountQuestion } from "./count-question";
                                 <h2><strong>Chúc mừng bạn đã hoàn thành bài học 1!</strong></h2>
                                 <h2><strong>Chuyển đến bài học mới nào</strong></h2>
                             </div>
-                            <h2><a routerLink="/sub10" routerLinkActive="active">Bài 2 - chương 1: Các phép toán trong phạm vi 10. </a></h2>
+                            <h2><a routerLink="/sub10" routerLinkActive="active">Bài 2 - chương 1: Phép trừ trong phạm vi 10. </a></h2>
                             <router-outlet></router-outlet>
                         </div>
                     </div>

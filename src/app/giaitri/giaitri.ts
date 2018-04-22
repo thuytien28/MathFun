@@ -64,7 +64,7 @@ import { Component } from '@angular/core';
             <div class="col-md-6">
                 <h2>
                 <b>
-                    <a href="https://www.youtube.com/channel/UCGk3yw5k_xQUS_KSDCC6Nhw/videos" target="_blank" title="Quà Tặng Cuộc Sống">QÙA TẶNG CUỘC SỐNG</a>
+                    <a href="https://www.youtube.com/channel/UCGk3yw5k_xQUS_KSDCC6Nhw/videos" target="_blank" title="Quà Tặng Cuộc Sống">QUÀ TẶNG CUỘC SỐNG</a>
                 </b>
                 </h2>
                 <div class="list-group">

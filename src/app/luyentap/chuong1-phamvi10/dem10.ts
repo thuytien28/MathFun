@@ -1,6 +1,6 @@
 // mô tả câu hỏi
 import { Component } from '@angular/core';
-import { CountQuestion } from "./count-question";
+import { CountQuestion } from "../count-question";
 
 @Component({
     selector: 'dem10',
@@ -31,13 +31,15 @@ import { CountQuestion } from "./count-question";
                     <!-- chuyển sang bài tiếp theo -->
                     <div *ngIf="nextLess">
                         <div id="newLess">
-                            <!-- hoàn thành cả 5 câu hỏi đúng -->
+                            <!-- hoàn thành cả 10 câu hỏi đúng -->
                             <div *ngIf="endLessPer">
                                 <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học 1!</strong></h2>
+                                <h2>Bạn đã đạt được 10/10 sao.</h2>
                                 <h2><strong>Chuyển đến bài học mới nào</strong></h2>
                             </div>
                             <div *ngIf="endLess">
                                 <h2><strong>Chúc mừng bạn đã hoàn thành bài học 1!</strong></h2>
+                                <h2>Bạn đã đạt được {{count_true}}/10 sao.</h2>
                                 <h2><strong>Chuyển đến bài học mới nào</strong></h2>
                             </div>
                             <h2><a routerLink="/sub10" routerLinkActive="active">Bài 2 - chương 1: Phép trừ trong phạm vi 10. </a></h2>

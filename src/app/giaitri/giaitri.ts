@@ -56,7 +56,7 @@ import { Component } from '@angular/core';
                 </div>
                 <strong>
                 <h3> 
-                    <a href="http://truyencotich.vn/" target="_blank">Xem thêm</a>
+                    <a href="http://truyencotich.vn/" target="_blank">Xem thêm truyện ngắn</a>
                 </h3> 
                 </strong>
             </div>
@@ -118,7 +118,7 @@ import { Component } from '@angular/core';
                 </div>
                 <strong>
                 <h3>
-                    <a href="https://www.youtube.com/channel/UCGk3yw5k_xQUS_KSDCC6Nhw/videos" target="_blank">Xem thêm</a>
+                    <a href="https://www.youtube.com/channel/UCGk3yw5k_xQUS_KSDCC6Nhw/videos" target="_blank">Xem thêm quà tặng cuộc sống</a>
                 </h3> 
                 </strong>
             </div>

@@ -8,12 +8,12 @@ import { CountQuestion } from "../count-question";
     template: `
     <section>
     <h1>Bài 1 - Chương 1: Đếm trong phạm vi 10</h1>
-    <h2 class="type">Điền số thích hợp vào ô trống.</h2>
+    <h2 class="type" >Điền số thích hợp vào ô trống.</h2>
     <div class="container">
         <div class="row">
             <!-- cột hiển thị câu hỏi -->
             <div class="col-sm-1"></div>
-            <div class="col-sm-6 col-xs-10">
+            <div class="col-sm-6 col-xs-12">
                 <!-- câu hỏi hiện trong panel -->
                 <div class="panel panel-body panel-primary" id="divQues">
                     <div *ngIf="showAns">
